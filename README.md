@@ -24,5 +24,5 @@ O projeto consiste em um pequeno Crud basico para treinar a logica, mas muito fu
 
 ## interface 
 
-[Imagem Programa](C:/Users/lp/Documents/Estudos/projetos/cadastroClientes/icones/programa.png)
+[Interface do Programa](./icones/programa.png)
 
