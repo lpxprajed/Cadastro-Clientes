@@ -1,5 +1,6 @@
 from tkinter import *
 from tkinter import ttk
+from tkinter import PhotoImage
 import sqlite3
 
 root = Tk()
@@ -49,6 +50,10 @@ class Application(Funcs):
         self.root.resizable(True, True)# define se a tela pode ser redimensionada largura e altura
         self.root.maxsize(width= 900, height= 700)#define tamanho máxio
         self.root.minsize(width=500, height=400)#define tamanho minimo
+        
+        self.icone = PhotoImage(file="C:/Users/lp/Documents/Estudos/projetos/cadastroClientes/icones/cadastro.png")
+        self.root.iconphoto(True, self.icone)
+        
     def frames_da_tela(self):
         self.frame_1 = Frame(self.root, bd = 4, bg = '#dfe3ee',                             
         highlightbackground= '#759feb', highlightthickness=2)  
