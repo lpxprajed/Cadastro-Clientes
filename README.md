@@ -24,5 +24,5 @@ O projeto consiste em um pequeno Crud basico para treinar a logica, mas muito fu
 
 ## interface 
 
-[Interface do Programa](./icones/programa.png)
+[Interface do Programa](./icones/programa.PNG)
 
